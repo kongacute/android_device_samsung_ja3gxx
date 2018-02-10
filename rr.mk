@@ -1,9 +1,9 @@
 $(call inherit-product, device/samsung/ja3gxx/full_ja3gxx.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Resurrection Remix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ja3gxx
+PRODUCT_NAME := rr_ja3gxx
 PRODUCT_DEVICE := ja3gxx
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
